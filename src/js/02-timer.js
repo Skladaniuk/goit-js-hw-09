@@ -70,6 +70,8 @@ const timer = {
 btnStart.addEventListener('click', () => {
     timer.start();
     btnStart.setAttribute('disabled', 'disabled');
+    inputEl.setAttribute('disabled', 'disabled');
+
 });
 
 function addLeadingZero(value) {
